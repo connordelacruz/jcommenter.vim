@@ -4,6 +4,6 @@ the Windows line endings fixed.
 
 ## TODO
 
-- Add command wrapper for JCommentWriter() function
-- Add configurable mapping
+- Add configurable mappings
+- Only load for java files?
 

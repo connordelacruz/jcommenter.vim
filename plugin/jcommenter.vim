@@ -16,6 +16,7 @@
 
 
 " map the commenter:
+" TODO: make configurable
 map <M-c> :call JCommentWriter()<CR>
 imap <M-c> <esc>:call JCommentWriter()<CR>
 
@@ -1245,5 +1246,11 @@ function! ConditionalWriter()
     let b:jcommenter_move_cursor = oldmove
   endif
 endfunction
+
+" ===================================================
+" Commands
+" ===================================================
+
+command! JCommentWriter call JCommentWriter()
 
 " vim: set et sw=2 ts=2:
